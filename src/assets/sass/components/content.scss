@@ -1,0 +1,27 @@
+.content{
+    .container{
+        padding: 5%;
+        h3{
+            color: $yellow-txt;
+            &::after{
+                content: " ";
+                display: block;
+                background-color: $yellow-txt;
+                height: 3px;
+                width: 50px;
+                margin: 10px 0 0;
+            }
+        }
+        img{
+            max-width: 90%;
+        }
+        p{
+            margin-top: 2em;
+        }
+        .content__txt{
+            vertical-align: middle;
+            margin: auto;
+        }
+    }
+    
+}
